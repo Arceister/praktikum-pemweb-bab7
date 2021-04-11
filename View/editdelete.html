@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Edit:</h2>
+    <form action="/editproker" method="POST">
+        <label for="idc">Nomor Program:</label><br>
+        <input type="number" name="noprog" id = "idc">
+        <br>
+
+        <label for="idc">Nama Program:</label><br>
+        <input type="text" name="namaprog" id = "idc" maxlength="100">
+        <br>
+
+        <label for="nama">Surat Keterangan:</label><br>
+        <input type="text" name="suket" id = "nama" maxlength="255">
+        <br>
+
+        <input type="submit" value="Edit">
+    </form>
+    <br>
+
+    <h2>Delete:</h2>
+    <form action="/deleteproker" method="POST">
+        <label for="idc">Nomor Program:</label><br>
+        <input type="number" name="noprog" id = "idc">
+        <br>
+
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>
